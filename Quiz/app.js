@@ -2,7 +2,7 @@ const correctAnswers = ['A', 'A', 'A', 'B'];
 
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
-const text = document.getElementsByTagName('span')
+const text = document.getElementsByTagName('span');
 
 form.addEventListener('submit', e =>
 {
@@ -28,7 +28,7 @@ form.addEventListener('submit', e =>
             clearInterval(timer);
         }
         else{
-            output++
+            output++;
         }
     }, 10);
 
