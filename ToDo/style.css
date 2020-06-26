@@ -11,7 +11,8 @@ body{
     background: rgba(0,0,0,0.2);
     max-width: 400px;
   }
-  .todos li{
+  .todos li,
+  nav{
     background: #341eb4;
   }
   .delete{
