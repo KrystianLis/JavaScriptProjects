@@ -11,8 +11,7 @@ body{
     background: rgba(0,0,0,0.2);
     max-width: 400px;
   }
-  .todos li,
-  nav{
+  .todos li{
     background: #341eb4;
   }
   .delete{
@@ -20,4 +19,11 @@ body{
   }
   .filtered{
     display: none !important;
+  }
+  .nav{
+    background: #2e13c9;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
   }
