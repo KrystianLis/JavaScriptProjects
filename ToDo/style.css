@@ -2,6 +2,7 @@ body{
     background: #190a69;
   }
   .container{
+    top: 100;
     max-width: 400px;
   }
   input[type=text],
