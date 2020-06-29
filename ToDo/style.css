@@ -2,8 +2,9 @@ body{
     background: #190a69;
   }
   .container{
-    top: 100;
+    top: 100px;
     max-width: 400px;
+    position: relative;
   }
   input[type=text],
   input[type=text]:focus{
